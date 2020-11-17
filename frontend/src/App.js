@@ -1,11 +1,17 @@
 import React, { Component, Fragment, useState, useEffect } from "react";
 import { Switch, Route, NavLink, useHistory } from "react-router-dom";
-
+import Home from './components/Home'
 const App = () => {
   
   return(
     <div>
-      <p>This is the Home Page</p>
+
+      <Switch>
+        <Route exact path="/" render={() => <Home/> } />
+      </Switch>
+
+    
+      
     </div>
   )
 
