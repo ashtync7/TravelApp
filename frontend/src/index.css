@@ -33,9 +33,8 @@
   height: 100%;
   font-size: 1.4em;
 }
-.menu li a.search:before {
-  content: "\f002";
-}
+.fa-map-marker-alt:before {
+  content: "\f3c5"; }
 .menu li a.archive:before {
   content: "\f187";
 }
@@ -44,9 +43,6 @@
 }
 .menu li a.contact:before {
   content: "\f003";
-}
-.menu li a.about:before {
-  content: "\f007";
 }
 .menu li a.home:before {
   content: "\f015";
