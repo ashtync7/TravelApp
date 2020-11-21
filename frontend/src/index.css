@@ -34,7 +34,8 @@
   font-size: 1.4em;
 }
 .fa-map-marker-alt:before {
-  content: "\f3c5"; }
+  content: "\f3c5"; 
+}
 .menu li a.archive:before {
   content: "\f187";
 }
