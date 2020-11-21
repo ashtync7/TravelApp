@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <div>
-      
+
       <div>
         <ul>
           <li><a href="#" title="home">home</a></li>
@@ -16,9 +16,9 @@ const App = () => {
         </ul>
       </div>
 
-    <Switch>
-      <Route exact path='/' render={() => <Home/>} />
-    </Switch>
+      <Switch>
+        <Route exact path='/' render={() => <Home />} />
+      </Switch>
 
     </div>
   )
