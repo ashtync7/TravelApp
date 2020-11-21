@@ -5,8 +5,17 @@ const App = () => {
 
   return (
     <div>
-
-      <div>
+            <nav className="navBar">
+                <ul>
+                <li id="logo">LOGOHERE</li>
+                    <li>Home</li>
+                    <li>Destinations</li>
+                    <li>Custom Vacations</li>
+                    <li>Travel Resources</li>
+                    <li>Contact Us</li>
+                </ul>
+            </nav>
+      {/* <div>
         <ul>
           <li><a href="#" title="home">home</a></li>
           <li><a href="#" title="destinations">Destinations</a></li>
@@ -14,7 +23,7 @@ const App = () => {
           <li><a href="#" title="link1">Travel Resources</a></li>
           <li><a href="#" title="Contact Us">Contact Us</a></li>
         </ul>
-      </div>
+      </div> */}
 
       <Switch>
         <Route exact path='/' render={() => <Home />} />
