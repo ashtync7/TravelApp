@@ -16,9 +16,9 @@ const App = () => {
         </ul>
       </div>
 
-    {/* <Switch>
+    <Switch>
       <Route exact path='/' render={() => <Home/>} />
-    </Switch> */}
+    </Switch>
 
     </div>
   )
