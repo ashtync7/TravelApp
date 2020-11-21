@@ -105,6 +105,9 @@ ul {
   display:block;
   width:170px;
   margin:0;
+  list-style: none;
+  margin-left: -3vw;
+  margin-top: 5vh;
 }
 li {
   padding:5px 0;
