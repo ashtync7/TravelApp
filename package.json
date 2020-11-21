@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Tzikas/IronPlate#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.1"
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "react-responsive-carousel": "^3.2.10"
   }
 }
