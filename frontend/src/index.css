@@ -64,6 +64,7 @@ body{
 }
 .homeHeader{
   text-align:center;
+  font-family: 'Carter One', cursive;
 }
 #homePagePic{
   width: 100vw;
@@ -77,4 +78,5 @@ body{
 } */
 
 /* DESTINATIONS PAGE STYLES */
+
 
