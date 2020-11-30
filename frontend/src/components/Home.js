@@ -24,14 +24,11 @@ function Home(props) {
             </div> */}
 
             <div className="homeHeader">
-<<<<<<< HEAD
                 <h2>WANDERLUST TRAVEL AGENCY</h2>
-                <h3>Travel Agency Moto</h3>
-=======
-                <h2>Wanderlust Travel Agency</h2>
                 <img id="glowSlogan" src="images/glowSlogan1.png" alt="Not All Who Wander Are Lost" />
->>>>>>> 9e91c5c1d1b68fac9efb9cd9dfb291d21009c154
-                <h4>Sentence of Summary</h4>
+
+                <h4 id="homeSummary">Travel - the only think you buy, that makes you richer.</h4>
+
             </div>
         </div>
 

@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <nav className="navBar">
         <ul>
-          <li id="logo">LOGOHERE</li>
+          <img id="logo" src="images/WTAlogo.png"></img>
           <li>Home</li>
           <li>Destinations</li>
           <li>Custom Vacations</li>
