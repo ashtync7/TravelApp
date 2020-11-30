@@ -64,8 +64,11 @@ body{
   height: 100%;
 }
 .homeHeader{
-  text-align:center;
-  font-family: 'Sansita Swashed', cursive;
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive; 
+}
+#wanderTitle{
+  
 }
 #homePagePic{
   width: 100vw;
