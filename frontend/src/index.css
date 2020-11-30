@@ -72,10 +72,15 @@ body{
 .homeHeader{
   text-align:center;
   font-family: 'Montserrat', sans-serif;
-  color: #724169;
+  margin-top: -5vh;
 }
 .homeHeader h2{
-  font-weight: 600;
+  font-size: 6vh;
+  color: #724169;
+}
+.homeHeader h4{
+  font-size: 4vh;
+  color: #D2A0DD;
 }
 #homePagePic{
   width: 100vw;
@@ -86,12 +91,15 @@ body{
   width: auto;
 }
 
-/* #glowSlogan{
-  margin-top: -22vh;
+#glowSlogan{
+  height: 80vh;
+  width: auto;
+  margin-top: -20vh;
 }
 #homeSummary{
-  margin-top: -22vh;
-} */
+  margin-top: -18vh;
+  color: #FEF9FF;
+}
 /* .CarDiv{
   height: auto;
   width: 60vw;
