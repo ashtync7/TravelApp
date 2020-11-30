@@ -24,7 +24,7 @@ function Home(props) {
             </div> */}
 
             <div className="homeHeader">
-                <h2>Wanderlust Travel Agency</h2>
+                <h2>WANDERLUST TRAVEL AGENCY</h2>
                 <h3>Travel Agency Moto</h3>
                 <h4>Sentence of Summary</h4>
             </div>
