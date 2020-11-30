@@ -51,12 +51,18 @@ li:hover a {
   justify-content: space-evenly;
   margin-right: 2vw;
   font-family: 'Cabin Condensed', sans-serif;
+  align-items: center;
+  color: #724169;
+}
+.navBar li{
+  font-size: 3vh;
 }
 
 /* HOME PAGE STYLES */
 body{
-  background-image: url("./images2/ethicalTraveler.jpg");
-  background-size: cover;
+  background-image: url("./images2/ethicalTraveler.jpeg");
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 .homeTotal{
   display: flex;
@@ -64,21 +70,35 @@ body{
   height: 100%;
 }
 .homeHeader{
-  text-align: center;
-  font-family: 'Sansita Swashed', cursive; 
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -5vh;
 }
-#wanderTitle{
-  
+.homeHeader h2{
+  font-size: 6vh;
+  color: #724169;
+}
+.homeHeader h4{
+  font-size: 4vh;
+  color: #D2A0DD;
 }
 #homePagePic{
   width: 100vw;
   height: auto;
 }
+#logo {
+  height: 15vh;
+  width: auto;
+}
+
 #glowSlogan{
-  margin-top: -22vh;
+  height: 80vh;
+  width: auto;
+  margin-top: -20vh;
 }
 #homeSummary{
-  margin-top: -22vh;
+  margin-top: -18vh;
+  color: #FEF9FF;
 }
 /* .CarDiv{
   height: auto;
