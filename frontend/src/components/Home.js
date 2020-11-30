@@ -26,7 +26,7 @@ function Home(props) {
             <div className="homeHeader">
                 <h2>Wanderlust Travel Agency</h2>
                 <img id="glowSlogan" src="images/glowSlogan1.png" alt="Not All Who Wander Are Lost" />
-                <h4>Sentence of Summary</h4>
+                <h4 id="homeSummary">Travel - the only think you buy, that makes you richer.</h4>
             </div>
         </div>
 
