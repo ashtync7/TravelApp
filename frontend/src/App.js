@@ -5,16 +5,16 @@ const App = () => {
 
   return (
     <div>
-            <nav className="navBar">
-                <ul>
-                <li id="logo">LOGOHERE</li>
-                    <li>Home</li>
-                    <li>Destinations</li>
-                    <li>Custom Vacations</li>
-                    <li>Travel Resources</li>
-                    <li>Contact Us</li>
-                </ul>
-            </nav>
+      <nav className="navBar">
+        <ul>
+          <li id="logo">LOGOHERE</li>
+          <li>Home</li>
+          <li>Destinations</li>
+          <li>Custom Vacations</li>
+          <li>Travel Resources</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
       {/* <div>
         <ul>
           <li><a href="#" title="home">home</a></li>

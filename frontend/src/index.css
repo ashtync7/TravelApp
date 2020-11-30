@@ -50,6 +50,7 @@ li:hover a {
   list-style: none;
   justify-content: space-evenly;
   margin-right: 2vw;
+  font-family: 'Cabin Condensed', sans-serif;
 }
 
 /* HOME PAGE STYLES */
@@ -64,7 +65,7 @@ body{
 }
 .homeHeader{
   text-align:center;
-  font-family: 'Carter One', cursive;
+  font-family: 'Sansita Swashed', cursive;
 }
 #homePagePic{
   width: 100vw;

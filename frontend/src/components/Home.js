@@ -22,9 +22,9 @@ function Home(props) {
                 </div>
             </Carousel>
             </div> */}
-            
+
             <div className="homeHeader">
-                <h2>Travel Agency Name</h2>
+                <h2>Company Name</h2>
                 <h3>Travel Agency Moto</h3>
                 <h4>Sentence of Summary</h4>
             </div>
