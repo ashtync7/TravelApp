@@ -71,6 +71,9 @@ body{
   width: 100vw;
   height: auto;
 }
+#glowSlogan{
+  margin-top: -22vh;
+}
 /* .CarDiv{
   height: auto;
   width: 60vw;
