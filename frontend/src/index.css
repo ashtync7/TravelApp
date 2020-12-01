@@ -4,7 +4,7 @@
   list-style: none;
   justify-content: space-evenly;
   margin-right: 2vw;
-  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   align-items: center;
   color: #724169;
 }
@@ -60,6 +60,108 @@ body{
 #homeSummary{
   margin-top: -18vh;
   color: #FEF9FF;
+}
+
+/* form css starts here */
+#chickenwings {
+  display: flex;
+  justify-content: space-around;
+  font-size: 3vh;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #D2A0DD;
+  align-items: center;
+}
+#cheeseburgers {
+  width: 250px;
+  height: 30px;
+  margin-left: 1vw;
+  background-color: white;
+  box-shadow: 0 2px 2px 0;
+  border-radius: 5px;
+}
+#formMessage {
+  width: 250px;
+  margin-left: 1vw;
+  background-color: white;
+  box-shadow: 0 2px 2px 0;
+  border-radius: 5px;
+}
+#formButton {
+  height: 45px;
+  width: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  border: 2px solid #724169;
+  color: #724169;
+  background-color: white;
+  box-shadow: 0 3px 3px 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+input[type="text"] {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+textarea[type="text"] {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+#chickenwings label {
+  color: #724169;
+}
+#formStuff {
+  background-color: #724169;
+  padding: 20px;
+  border: 7px black ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.messageLabel {
+  display: flex;
+  align-items: center;
+}
+#formIntro {
+  font-size: 2.5vh;
+  text-align: center;
+  width: 500px;
+}
+@media (max-width: 1000px){
+  #chickenwings{
+    display: flex;
+    flex-direction: column;
+  }
+  .formDiv1{
+    margin-bottom: 10px;
+  }
+  .formDiv2{
+    margin-bottom: 10px;
+  }
+  .messageLabel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  #formIntro{
+    width: 300px;
+  }
+  #formStuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    align-self: center;
+  }
+}
+@media (max-width: 2000px){
+  #formStuff{
+    width: 1500px;
+  }
 }
 /* .CarDiv{
   height: auto;
