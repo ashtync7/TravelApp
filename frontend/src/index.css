@@ -9,7 +9,14 @@
   color: #724169;
 }
 .navBar li{
-  font-size: 3vh;
+  font-size: 2.5vh;
+}
+.navBar a {
+  text-decoration: none;
+  color: #724169;
+}
+.navBar a:hover{
+  color: #D2A0DD;
 }
 
 /* HOME PAGE STYLES */
