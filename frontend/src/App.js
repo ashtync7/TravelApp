@@ -22,7 +22,7 @@ const App = () => {
         </ul>
       </nav>
 
-      <img src="images/WTAlogoVan1.png" alt="Our Van Logo" id="middleLogo" />
+      <Link to={`/`}><img src="images/WTAlogoVan1.png" alt="Our Van Logo" id="middleLogo" /></Link>
 
       <nav className="menu-wrap">
         <input type="checkbox" class="toggler"/>
@@ -33,11 +33,11 @@ const App = () => {
         <div>
         <div>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Destinations</a></li>
-            <li><a href="#">Custom Vacations</a></li>
-            <li><a href="#">Travel Resources</a></li>
-            <li><a href="#">Contact Us</a></li>
+          <Link to={`/`} id="menu2li"><li>Home</li></Link>
+          <Link to={`/Destinations`} id="menu2li"><li>Destinations</li></Link>
+          <Link to={`/CustomVacations`} id="menu2li"><li>Custom Vacations</li></Link>
+          <Link to={`/TravelResources`} id="menu2li"><li>Travel Resources</li></Link>
+          <Link to={`/ContactUs`} id="menu2li"><li>Contact Us</li></Link>
           </ul>
         </div>
         </div>

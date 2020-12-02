@@ -176,7 +176,14 @@
   font-size: 1.5rem;
   padding: 1rem;
   font-family: 'Montserrat', sans-serif;
-
+}
+#menu2li {
+  text-decoration: none;
+  list-style-type: none;
+  color: #724169;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -219,12 +226,12 @@ body{
 }
 
 #glowSlogan{
-  height: 80vh;
-  width: auto;
-  margin-top: -20vh;
+  height: auto;
+  width: 80vw;
+  margin-top: -20vw;
 }
 #homeSummary{
-  margin-top: -18vh;
+  margin-top: -20vw;
   color: #FEF9FF;
 }
 
