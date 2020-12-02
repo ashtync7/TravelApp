@@ -31,14 +31,14 @@ function Home(props) {
 
             </div>
             <div id="formStuff">
-                <div><p id="formIntro">Let's start planning your trip! Tell us about what kind of vacation you want to take!</p></div>
+                {/* <div><p id="formIntro">Let's start planning your trip! Tell us about what kind of vacation you want to take!</p></div> */}
                 <div><form id="chickenwings">
                     <div className="formDiv1">
-                        <input type="text" id="cheeseburgers" placeholder="First & Last Name"></input></div>
+                        <input type="text" id="cheeseburgers" className="input1" placeholder="First & Last Name"></input></div>
                     <div className="formDiv2">
-                        <input type="text" id="cheeseburgers" placeholder="E-mail Address"></input></div>
+                        <input type="text" id="cheeseburgers" className="input2" placeholder="E-mail Address"></input></div>
                     <div className="messageLabel">
-                        <textarea type="text" id="formMessage" rows="3" placeholder="Where do you want to go?"></textarea></div>
+                        <input type="text" id="formMessage" rows="3" placeholder="Where do you want to go?"></input></div>
                     <button id="formButton">Send</button>
                 </form></div>
             </div>

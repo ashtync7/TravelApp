@@ -64,43 +64,65 @@ body{
 
 /* form css starts here */
 #chickenwings {
+  margin-top: -15px;
   display: flex;
   justify-content: space-around;
-  font-size: 3vh;
-  padding: 20px;
+  /* font-size: 3vh; */
+  padding: 30px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #D2A0DD;
+  /* background-color: #D2A0DD; */
+  /* background-color: #724169; */
+  /* background-color: rgb(241, 235, 247); */
+  background-color: white;
+  opacity: 100%;
   align-items: center;
 }
 #cheeseburgers {
   width: 250px;
-  height: 30px;
-  margin-left: 1vw;
+  height: 70px;
+  /* margin-left: 1vw; */
   background-color: white;
-  box-shadow: 0 2px 2px 0;
-  border-radius: 5px;
+  /* box-shadow: 0 2px 2px 0; */
+  /* border-radius: 5px; */
+  border: grey 1px solid;
+  text-transform: uppercase;
+  font-size: 1.3vh;
 }
+
+
 #formMessage {
   width: 250px;
-  margin-left: 1vw;
+  height: 70px;
+  /* margin-left: 1vw; */
   background-color: white;
-  box-shadow: 0 2px 2px 0;
-  border-radius: 5px;
+  /* box-shadow: 0 2px 2px 0; */
+  /* border-radius: 5px; */
+  text-transform: uppercase;
+  font-size: 1.3vh;
+  /* margin: 0 0 0 -.2px; */
+  border: grey 1px solid;
 }
 #formButton {
-  height: 45px;
-  width: 70px;
+  height: 75px;
+  width: 100px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  border: 2px solid #724169;
-  color: #724169;
-  background-color: white;
-  box-shadow: 0 3px 3px 0;
-  border-radius: 5px;
+  /* border: 1px solid #724169; */
+  border: none;
+  /* color: black; */
+  color: white;
+  /* background-color: lightblue; */
+  /* background-color: white; */
+  background-color: #724169;
+  /* box-shadow: 0 3px 3px 0; */
+  /* border-radius: 5px; */
   text-transform: uppercase;
+  margin-right: 10px;
 }
 ::placeholder {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: black;
 }
 input[type="text"] {
   font-family: Montserrat;
@@ -114,9 +136,9 @@ textarea[type="text"] {
   color: #724169;
 }
 #formStuff {
-  background-color: #724169;
+  /* background-color: #724169; */
   padding: 20px;
-  border: 7px black ;
+  /* border: 1px black ; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -135,6 +157,8 @@ textarea[type="text"] {
   #chickenwings{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    /* background-color: #724169; */
   }
   .formDiv1{
     margin-bottom: 10px;
@@ -147,9 +171,9 @@ textarea[type="text"] {
     flex-direction: column;
     margin-bottom: 10px;
   }
-  #formIntro{
+  /* #formIntro{
     width: 300px;
-  }
+  } */
   #formStuff{
     display: flex;
     flex-direction: column;
@@ -158,17 +182,7 @@ textarea[type="text"] {
     align-self: center;
   }
 }
-@media (max-width: 2000px){
-  #formStuff{
-    width: 1500px;
-  }
-}
-/* .CarDiv{
-  height: auto;
-  width: 60vw;
-  margin-left: 20vw;
-  margin-top: -70px;
-} */
+
 
 /* DESTINATIONS PAGE STYLES */
 
