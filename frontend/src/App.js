@@ -21,6 +21,30 @@ const App = () => {
           <Link to={`/ContactUs`}><li>Contact Us</li></Link>
         </ul>
       </nav>
+
+      <img src="images/WTAlogoVan1.png" alt="Our Van Logo" id="middleLogo" />
+
+      <nav className="menu-wrap">
+        <input type="checkbox" class="toggler"/>
+        <div class="hamburger">
+        <div></div>
+        </div>
+        <div class="menu">
+        <div>
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Custom Vacations</a></li>
+            <li><a href="#">Travel Resources</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        </div>
+        </div>
+      </nav>
+    
+
       {/* <div>
         <ul>
           <li><a href="#" title="home">home</a></li>
