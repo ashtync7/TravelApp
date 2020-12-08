@@ -1,7 +1,6 @@
 import React, { Component, Fragment, useState, useEffect } from "react";
-import { Switch, Route, NavLink, useHistory } from "react-router-dom";
-import {Link} from 'react-router-dom';
-import Home from './components/Home'
+import { Switch, Route, Link } from "react-router-dom";
+import Home from './components/Home';
 import Destinations from './components/Destinations';
 import CustomVacations from './components/CustomVacation';
 import TravelResources from './components/TravelResources';
@@ -13,8 +12,8 @@ const App = () => {
     <div>
       <nav className="navBar">
         <ul>
-        <Link to={`/`}><img id="logo" src="images/WTAlogoVan1.png"></img></Link>
-          <Link to={`/`}><li>Home</li></Link>
+          <Link to='/'><img id="logo" src="images/WTAlogoVan1.png"></img></Link>
+          <Link to='/'><li>Home</li></Link>
           <Link to={`/Destinations`}><li>Destinations</li></Link>
           <Link to={`/CustomVacations`}><li>Custom Vacations</li></Link>
           <Link to={`/TravelResources`}><li>Travel Resources</li></Link>
@@ -22,7 +21,7 @@ const App = () => {
         </ul>
       </nav>
 
-      <Link to={`/`}><img src="images/WTAlogoVan1.png" alt="Our Van Logo" id="middleLogo" /></Link>
+      {/* <Link to={`/`}><img src="images/WTAlogoVan1.png" alt="Our Van Logo" id="middleLogo" /></Link>
 
       <nav className="menu-wrap">
         <input type="checkbox" class="toggler"/>
@@ -42,7 +41,7 @@ const App = () => {
         </div>
         </div>
         </div>
-      </nav>
+      </nav> */}
     
 
       {/* <div>
