@@ -17,7 +17,7 @@ const App = () => {
           <Link to={`/Destinations`}><li>Destinations</li></Link>
           <Link to={`/CustomVacations`}><li>Custom Vacations</li></Link>
           <Link to={`/TravelResources`}><li>Travel Resources</li></Link>
-          <Link to={`/ContactUs`}><li>Contact Us</li></Link>
+          <Link to={`/ContactUs`}><li>About Us</li></Link>
         </ul>
       </nav>
 
@@ -36,7 +36,7 @@ const App = () => {
                 <Link to={`/Destinations`} id="menu2li"><li>Destinations</li></Link>
                 <Link to={`/CustomVacations`} id="menu2li"><li>Custom Vacations</li></Link>
                 <Link to={`/TravelResources`} id="menu2li"><li>Travel Resources</li></Link>
-                <Link to={`/ContactUs`} id="menu2li"><li>Contact Us</li></Link>
+                <Link to={`/ContactUs`} id="menu2li"><li>About Us</li></Link>
               </ul>
             </div>
           </div>
