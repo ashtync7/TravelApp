@@ -3,14 +3,15 @@ import { Switch, Route, Link } from "react-router-dom";
 import Home from './Home';
 import CustomVacations from './CustomVacation';
 import TravelResources from './TravelResources';
-import ContactUs from './Contact';
+import ContactUs from './About';
+import '../Destinations.css';
 
 
 function Destinations(props) {
 
 
   return (
-    <div>
+    <div className="destiDiv">
       {/* <nav className="navBar">
         <ul>
           <Link to='/'><img id="logo" src="images/WTAlogoVan1.png"></img></Link>

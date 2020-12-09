@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Destinations from './components/Destinations';
 import CustomVacations from './components/CustomVacation';
 import TravelResources from './components/TravelResources';
-import ContactUs from './components/Contact';
+import AboutUs from './components/About';
 
 const App = () => {
 
@@ -17,7 +17,7 @@ const App = () => {
           <Link to={`/Destinations`}><li>Destinations</li></Link>
           <Link to={`/CustomVacations`}><li>Custom Vacations</li></Link>
           <Link to={`/TravelResources`}><li>Travel Resources</li></Link>
-          <Link to={`/ContactUs`}><li>About Us</li></Link>
+          <Link to={`/AboutUs`}><li>About Us</li></Link>
         </ul>
       </nav>
 
@@ -36,7 +36,7 @@ const App = () => {
                 <Link to={`/Destinations`} id="menu2li"><li>Destinations</li></Link>
                 <Link to={`/CustomVacations`} id="menu2li"><li>Custom Vacations</li></Link>
                 <Link to={`/TravelResources`} id="menu2li"><li>Travel Resources</li></Link>
-                <Link to={`/ContactUs`} id="menu2li"><li>About Us</li></Link>
+                <Link to={`/AboutUs`} id="menu2li"><li>About Us</li></Link>
               </ul>
             </div>
           </div>
@@ -50,7 +50,7 @@ const App = () => {
           <li><a href="#" title="destinations">Destinations</a></li>
           <li><a href="#" title="link1">Custom Vacations</a></li>
           <li><a href="#" title="link1">Travel Resources</a></li>
-          <li><a href="#" title="Contact Us">Contact Us</a></li>
+          <li><a href="#" title=/About Us"/About Us</a></li>
         </ul>
       </div> */}
 
@@ -59,8 +59,14 @@ const App = () => {
         <Route exact path='/Destinations' render={() => <Destinations />} />
         <Route exact path='/CustomVacations' render={() => <CustomVacations />} />
         <Route exact path='/TravelResources' render={() => <TravelResources />} />
-        <Route exact path='/ContactUs' render={() => <ContactUs />} />
+        <Route exact path='/AboutUs' render={() => <AboutUs />} />
       </Switch>
+
+
+      {/* <footer>
+      <h1>© 2020 Wanderlust Travel Agency | Designed by Jada Woody and Ashtyn Czapansky</h1>
+      <h2>123 Fake Address Rd. | Some Small Town, State51 11111 USA | <a href="tel:+0000000000" id="phoneCall">(000)000-0000</a></h2>
+    </footer> */}
 
     </div>
   )
