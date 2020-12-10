@@ -54,7 +54,7 @@ function Destinations(props) {
       </Switch> */}
 
       <div class="content">
-        <h1 class="section-header">Destinations or whateva</h1>
+        <h1 class="section-header">Visit a major U.S. City</h1>
         <div class="section-header-underline"></div>
         <div class="video-gallery">
           <div class="gallery-item">
@@ -112,7 +112,7 @@ function Destinations(props) {
             <div class="gallery-item-caption">
               <div>
                 <h2>Honolulu, Hawaii</h2>
-                <p>14410 feet of adventure</p>
+                <p>Please take me with you</p>
               </div>
             </div>
           </div>
