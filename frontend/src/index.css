@@ -452,7 +452,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 
@@ -541,6 +541,9 @@ footer h2{
   /* margin: 0 20px 10px 20px; */
   font-size: 20px;
   font-weight: 200;
-
 }
 
+.gallery-item-caption a {
+  color: white;
+  text-decoration: none;
+}
