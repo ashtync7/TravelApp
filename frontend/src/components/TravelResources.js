@@ -8,7 +8,7 @@ function TravelResources(props) {
                 <div className="section-header-underline"></div>
                 <div className="video-gallery">
                     <div className="gallery-item">
-                        <img src="https://www.infocusclinical.com/wp-content/uploads/2019/12/MG_1_1_New_York_City-1.jpg" alt="NYC" />
+                        <img src="images/ta-internationalTravel.jpg" alt="IT" />
                         <div className="gallery-item-caption">
                             <div>
                                 <a href=" https://travel.state.gov/content/travel/en/international-travel.html" target="_blank">
@@ -20,7 +20,7 @@ function TravelResources(props) {
                     </div>
 
                     <div className="gallery-item ">
-                        <img src="https://media.timeout.com/images/105718842/image.jpg" alt="Mt. Rainier" />
+                        <img src="images/ta-gear.jpg" alt="Rei" />
                         <div className="gallery-item-caption">
                             <div>
                                 <a href="https://www.rei.com/" target="_blank">
@@ -32,7 +32,7 @@ function TravelResources(props) {
                     </div>
 
                     <div className="gallery-item">
-                        <img src="https://www.fortunebuilders.com/wp-content/uploads/2014/12/miami-real-estate-investing.jpg" alt="Olympic National Park" />
+                        <img src="images/ta-budget.jpg" alt="travelBudget" />
                         <div className="gallery-item-caption">
                             <div>
                                 <a href=" https://expertvagabond.com/travel/" target="_blank">
@@ -44,7 +44,7 @@ function TravelResources(props) {
                     </div>
 
                     <div className="gallery-item">
-                        <img src="https://drivito2.imgix.drizly.com/5f93122b7685d985/86050bb2137e/wa-seattle.jpg?auto=format%2Ccompress&fm=jpeg&q=40&w=1800" alt="Mount St. Helens" />
+                        <img src="images/ta-food.jpg" alt="foodSafety" />
                         <div className="gallery-item-caption">
                             <div>
                                 <a href="https://www.eatright.org/health/lifestyle/travel/8-food-safety-tips-when-traveling-abroad" target="_blank">
@@ -56,7 +56,7 @@ function TravelResources(props) {
                     </div>
 
                     <div className="gallery-item ">
-                        <img src="https://republicanatheists.com/wp-content/uploads/2018/02/Chicago_illinois.jpg" alt="Mt. Rainier" />
+                        <img src="images/ta-safeTravel.jpg" alt="safeTravel" />
                         <div className="gallery-item-caption">
                             <div>
                                 <a href="https://www.back-packer.org/30-tips-and-ways-to-stay-safe-while-traveling-the-world-and-south-america/" target="_blank">
@@ -68,7 +68,7 @@ function TravelResources(props) {
                     </div>
 
                     <div className="gallery-item ">
-                        <img src="https://a.netzero-usa.com/site/media/Honolulu-Hawaii.png" alt="Mt. Rainier" />
+                        <img src="images/ta-enjoyTravel.jpg" alt="enjoyTravel" />
                         <div className="gallery-item-caption">
                             <div>
                                 <a href="https://glassofbubbly.com/5-great-ways-to-enjoy-your-travel/" target="_blank">
@@ -80,7 +80,7 @@ function TravelResources(props) {
                     </div>
 
                     <div className="gallery-item ">
-                        <img src="https://files.slack.com/files-pri/T02CQ4EN4-F01GMUM3M8V/ta-camera.jpg" alt="Mt. Rainier" />
+                        <img src="images/ta-camera.jpg" alt="cameras" />
                         <div className="gallery-item-caption">
                             <div>
                                 <a href="https://expertvagabond.com/best-travel-camera/" target="_blank">
@@ -92,7 +92,7 @@ function TravelResources(props) {
                     </div>
 
                     <div className="gallery-item ">
-                        <img src="https://a.netzero-usa.com/site/media/Honolulu-Hawaii.png" alt="Mt. Rainier" />
+                        <img src="images/ta-bucketList.jpg" alt="bucketList" />
                         <div className="gallery-item-caption">
                             <div>
                                 <a href="https://all.accor.com/gb/middle-east/magazine/one-hour-one-day-one-week/20-ultimate-travel-bucket-list-ideas-to-do-before-40-17ae1.shtml" target="_blank">
