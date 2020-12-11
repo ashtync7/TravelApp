@@ -7,7 +7,7 @@ import TravelResources from './components/TravelResources';
 import AboutUs from './components/About';
 
 const App = () => {
-
+  
   return (
     <div>
       <nav className="navBar">
