@@ -543,7 +543,77 @@ footer h2{
   font-weight: 200;
 }
 
+/* RESOURCES PAGE STYLES */
 .gallery-item-caption a {
   color: white;
   text-decoration: none;
+}
+
+/* ABOUT US PAGE STYLES */
+.headshot1{
+  height: auto;
+  width: 40vw;
+  border-radius: 50%;
+  margin-left: 5vw;
+}
+.headshot2{
+  height: auto;
+  width: 40vw;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  margin-right: 5vw;
+}
+.aboutSec1{
+  text-align: center;
+  /* margin: 60px auto 20px auto; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  /* text-transform: uppercase; */
+  color: #222;
+}
+.aboutSec1 h2{
+  text-transform: uppercase;
+}
+.aboutSec2{
+  display: flex;
+  text-align: right;
+  align-items: center;
+  margin-top: 100px;
+}
+.aboutSec3{
+  display: flex;
+  text-align: left;
+  align-items: center;
+  margin-top: 20vw;
+}
+.ashDiv{
+  position: absolute;
+  right: 0;
+  margin-right: 5vw;
+  font-size: 2.2vw;
+  width: 45vw;
+  font-family: 'Montserrat', sans-serif;
+}
+.jadaDiv{
+  margin-left: 5vw;
+  font-size: 2.2vw;
+  width: 45vw;
+  font-family: 'Montserrat', sans-serif;
+}
+.ashDiv a{
+  color: black;
+  text-decoration: none;
+}
+.jadaDiv a{
+  color: black;
+  text-decoration: none;
+}
+.ashDiv a:hover{
+  color: #724169;
+}
+.jadaDiv a:hover{
+  color: #724169;
+
 }
