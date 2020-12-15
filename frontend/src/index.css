@@ -528,8 +528,31 @@ body {
 
 
 
-
-
+/* CUSTOM VACATION PAGE STYLES */
+.theBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+  /* margin-left: 20vw; */
+  /* border: #D2A0DD 1px solid; */
+  margin:1px 20vw 0 20vw;
+  padding: 5px;
+}
+.customImage{
+  width: 20vw;
+  height: auto;
+}
+.customAddBtn{
+  width: 10vw;
+  height: 7vw;
+  background-color: #724169;
+  color: white;
+  border: none;
+}
+.customAddBtn:hover{
+  border: #956eb1bb solid 5px;
+}
 
 
 /* RESOURCES PAGE STYLES */
@@ -537,6 +560,7 @@ body {
   color: white;
   text-decoration: none;
 }
+
 
 
 
