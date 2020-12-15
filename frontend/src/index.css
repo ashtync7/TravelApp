@@ -521,27 +521,11 @@ body {
   }
 }
 
-/* destinations page */
 
-/* FOOTER STYLES */
-footer {
-  position: absolute;
-  right: 0;
-  bottom:0;
-  left:0;
-  text-align: center;
-  margin-top: 50px;
-}
-footer h1{
-  /* margin: 0 20px 10px 20px; */
-  font-size: 20px;
-  font-weight: 200;
-}
-footer h2{
-  /* margin: 0 20px 10px 20px; */
-  font-size: 20px;
-  font-weight: 200;
-}
+
+
+
+
 
 /* RESOURCES PAGE STYLES */
 .gallery-item-caption a {
@@ -549,16 +533,19 @@ footer h2{
   text-decoration: none;
 }
 
+
+
+
 /* ABOUT US PAGE STYLES */
 .headshot1{
   height: auto;
-  width: 40vw;
+  width: 35vw;
   border-radius: 50%;
   margin-left: 5vw;
 }
 .headshot2{
   height: auto;
-  width: 40vw;
+  width: 35vw;
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -586,20 +573,20 @@ footer h2{
   display: flex;
   text-align: left;
   align-items: center;
-  margin-top: 20vw;
+  margin-top: 10vw;
 }
 .ashDiv{
   position: absolute;
   right: 0;
   margin-right: 5vw;
   font-size: 2.2vw;
-  width: 45vw;
+  width: 50vw;
   font-family: 'Montserrat', sans-serif;
 }
 .jadaDiv{
   margin-left: 5vw;
   font-size: 2.2vw;
-  width: 45vw;
+  width: 50vw;
   font-family: 'Montserrat', sans-serif;
 }
 .ashDiv a{
@@ -616,4 +603,27 @@ footer h2{
 .jadaDiv a:hover{
   color: #724169;
 
+}
+
+
+
+
+/* FOOTER STYLES */
+footer {
+  position: absolute;
+  right: 0;
+  bottom:0;
+  left:0;
+  text-align: center;
+  margin-top: 50px;
+}
+footer h1{
+  /* margin: 0 20px 10px 20px; */
+  font-size: 20px;
+  font-weight: 200;
+}
+footer h2{
+  /* margin: 0 20px 10px 20px; */
+  font-size: 20px;
+  font-weight: 200;
 }
