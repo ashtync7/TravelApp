@@ -38,11 +38,15 @@
 #middleLogo{
   height: 15vh;
   width: auto;
-  position: absolute;
-  top: 0;
-  left: 40vw;
 }
-
+#midVanDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: -18vh;
+}
+/* body{
+  width: 100%;
+} */
 /* HAMBURGER MENU STYLES */
 .menu-wrap {
   position: fixed;

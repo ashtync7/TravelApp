@@ -7,7 +7,7 @@ import TravelResources from './components/TravelResources';
 import AboutUs from './components/About';
 
 const App = () => {
-  
+
   return (
     <div>
       <nav className="navBar">
@@ -20,9 +20,9 @@ const App = () => {
           <Link to={`/AboutUs`}><li>About Us</li></Link>
         </ul>
       </nav>
-
-      <Link to={`/`}><img src="images/WTAlogoVan1.png" alt="Our Van Logo" id="middleLogo" /></Link>
-
+      <div id="midVanDiv">
+        <Link to={`/`}><img src="images/WTAlogoVan1.png" alt="Our Van Logo" id="middleLogo" /></Link>
+      </div>
       <nav className="menu-wrap">
         <input type="checkbox" class="toggler" />
         <div class="hamburger">
