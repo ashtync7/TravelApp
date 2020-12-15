@@ -10,7 +10,9 @@ function About(props) {
             </section>
             {/* This will be Ashtyn's descriptive/bio section */}
             <section className="aboutSec2">
-                <img src="images/ashtyn.jpeg" alt="headshot of Ashtyn" className="headshot1" />
+                <div>
+                    <img src="images/ashtyn.jpeg" alt="headshot of Ashtyn" className="headshot1" />
+                </div>
                 <div className="ashDiv">
                     <p>I'm Ashtyn. I'm a web developer. I'm a fashion industry runaway. I'm also a brunch enthusiast, travel junky, beach lover, and I like to take things apart and put them back together. As a fashion designer, though, the satisfaction of building something out of nothing is what brought me to web development. Learning to code was one of the trickiest, most rewarding things I have learned in an educational setting. Because the tech industry is ever-changing, and I am honestly quite competitive, my goal is to continue learning, everyday, so I can be the best that I can be.</p>
                     <a href="https://ashtync7.github.io/PortfolioAC/" target="_blank"><p>View Ashtyn's Portfolio</p></a>

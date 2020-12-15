@@ -47,6 +47,7 @@
 /* body{
   width: 100%;
 } */
+
 /* HAMBURGER MENU STYLES */
 .menu-wrap {
   position: fixed;
@@ -545,15 +546,15 @@ body {
   height: auto;
   width: 35vw;
   border-radius: 50%;
-  margin-left: 5vw;
+  /* margin-left: 5vw; */
 }
 .headshot2{
   height: auto;
   width: 35vw;
   border-radius: 50%;
-  position: absolute;
+  /* position: absolute; */
   right: 0;
-  margin-right: 5vw;
+  /* margin-right: 5vw; */
 }
 .aboutSec1{
   text-align: center;
@@ -569,26 +570,50 @@ body {
 }
 .aboutSec2{
   display: flex;
+  justify-content: space-around;
   text-align: right;
   align-items: center;
   margin-top: 100px;
 }
 .aboutSec3{
   display: flex;
+  justify-content: space-around;
   text-align: left;
   align-items: center;
   margin-top: 10vw;
 }
+@media (max-width: 700px) {
+  .aboutSec2{
+    flex-direction: column;
+    
+  }
+  .aboutSec3{
+    flex-direction: column-reverse;
+  }
+  .ashDiv p {
+    font-size: 4vw;
+    width: 70vw;
+  }
+  .ashDiv {
+    margin-right: 15vw;
+    text-align: center;
+  }
+  .jadaDiv p {
+    font-size: 4vw;
+    width: 70vw;
+    margin-left: -10vw;
+    text-align: center;
+  }
+}
+
 .ashDiv{
-  position: absolute;
-  right: 0;
-  margin-right: 5vw;
+  /* margin-right: 5vw; */
   font-size: 2.2vw;
   width: 50vw;
   font-family: 'Montserrat', sans-serif;
 }
 .jadaDiv{
-  margin-left: 5vw;
+  /* margin-left: 5vw; */
   font-size: 2.2vw;
   width: 50vw;
   font-family: 'Montserrat', sans-serif;
@@ -608,8 +633,6 @@ body {
   color: #724169;
 
 }
-
-
 
 
 /* FOOTER STYLES */
